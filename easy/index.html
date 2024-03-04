@@ -1,32 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <script>
-        // console.log("hello world");
-//************************************************************************************
-        // 1. Print all even numbers from 1 – 10
-//*************************************************************************************       
-        // for(let i=1; i<=10; i++){
-        //     if(i%2==0){
-        //         console.log(i);
-        //     }
-        // }
+      // console.log("hello world");
+      //************************************************************************************
+      //    1. Print all even numbers from 1 – 10
+      //*************************************************************************************
+      // for(let i=1; i<=10; i++){
+      //     if(i%2==0){
+      //         console.log(i);
+      //     }
+      // }
 
-//************************************************************************************
-         // 2. Print a table containing multiplication tables
-//************************************************************************************
-       const tableOf=5;
-       for (let i=1; i<=10; i++){
-        let multiplication=`${tableOf} * ${i} = ${tableOf*i}`;
-        console.log(multiplication);
-       }
+      //************************************************************************************
+      // 2. Print a table containing multiplication tables
+      //************************************************************************************
+      //   const tableOf = 5;
+      //   for (let i = 1; i <= 10; i++) {
+      //     let multiplication = `${tableOf} * ${i} = ${tableOf * i}`;
+      //     console.log(multiplication);
+      //   }
 
+      //************************************************************************************
+      // 4. Calculate the sum of numbers within an array
+      //************************************************************************************
+
+      const array = [2, 3, 4, 5, 6, 7, 8, 9];
+      let sum = 0;
+      for (let i = 0; i <= array.length - 1; i++) {
+        // console.log(array[i]);
+        sum = sum + array[i];
+      }
+      console.log(sum);
     </script>
-    
-</body>
+  </body>
 </html>
