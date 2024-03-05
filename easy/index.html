@@ -81,20 +81,31 @@
       // filterOutNagative((array = [3, 4, 6, 7, -4, 6, -2, -83]));
 
       //************************************************************************************
-      // Remove the spaces found in a string
+      //8. Remove the spaces found in a string
       //************************************************************************************
 
       const str = "hello            world";
 
       // console.log(str.split(" ").join(""));
 
-      let newStr = "";
-      for (i = 0; i <= str.length - 1; i++) {
-        if (str[i] !== " ") {
-          newStr = newStr + str[i];
-        }
+      // let newStr = "";
+      // for (i = 0; i <= str.length - 1; i++) {
+      //   if (str[i] !== " ") {
+      //     newStr = newStr + str[i];
+      //   }
+      // }
+      // console.log(newStr);
+
+      //************************************************************************************
+      //9. Calculate the sum of numbers from 1 to 10
+      //************************************************************************************
+
+      let sum=0;
+      let sumOfNumber=5
+      for(i=0; i<=sumOfNumber; i++){
+        sum=sum+i;
       }
-      console.log(newStr);
+      console.log(sum);
     </script>
   </body>
 </html>
