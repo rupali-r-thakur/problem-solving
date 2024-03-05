@@ -110,14 +110,24 @@
       //************************************************************************************
       //10. Calculate the sum of odd numbers greater than 10 and less than 30
       //************************************************************************************
-      const num = 30;
-      let sum = 0;
-      for (i = 11; i < num; i++) {
-        if (i % 2 !== 0) {
-          sum = sum + i;
-        }
+      // const num = 30;
+      // let sum = 0;
+      // for (i = 11; i < num; i++) {
+      //   if (i % 2 !== 0) {
+      //     sum = sum + i;
+      //   }
+      // }
+      // console.log(sum);
+
+      //************************************************************************************
+      // Create a function that will convert from Celsius to Fahrenheit
+      //************************************************************************************
+
+      function Celsius(c) {
+        const Fahrenheit = c * (9 / 5) + 32;
+        console.log(Fahrenheit);
       }
-      console.log(sum);
+      Celsius(3);
     </script>
   </body>
 </html>
