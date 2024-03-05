@@ -71,14 +71,30 @@
       // 7. Create a function that filters out negative numbers from an array
       //************************************************************************************
 
-      function filterOutNagative(array) {
-        for (i = 0; i <= array.length - 1; i++) {
-          if (array[i] > 0) {
-            console.log(array[i]);
-          }
+      // function filterOutNagative(array) {
+      //   for (i = 0; i <= array.length - 1; i++) {
+      //     if (array[i] > 0) {
+      //       console.log(array[i]);
+      //     }
+      //   }
+      // }
+      // filterOutNagative((array = [3, 4, 6, 7, -4, 6, -2, -83]));
+
+      //************************************************************************************
+      // Remove the spaces found in a string
+      //************************************************************************************
+
+      const str = "hello            world";
+
+      // console.log(str.split(" ").join(""));
+
+      let newStr = "";
+      for (i = 0; i <= str.length - 1; i++) {
+        if (str[i] !== " ") {
+          newStr = newStr + str[i];
         }
       }
-      filterOutNagative((array = [3, 4, 6, 7, -4, 6, -2, -83]));
+      console.log(newStr);
     </script>
   </body>
 </html>
