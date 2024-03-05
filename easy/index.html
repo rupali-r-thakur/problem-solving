@@ -63,9 +63,22 @@
       //************************************************************************************
       // 6. Return the number of vowels in a string
       //************************************************************************************
-      const myName="my name is rupali sharma"
-      const vowels=/[aeiou]/g;
-      console.log(myName.match(vowels).length);
+      // const myName="my name is rupali sharma"
+      // const vowels=/[aeiou]/g;
+      // console.log(myName.match(vowels).length);
+
+      //************************************************************************************
+      // 7. Create a function that filters out negative numbers from an array
+      //************************************************************************************
+
+      function filterOutNagative(array) {
+        for (i = 0; i <= array.length - 1; i++) {
+          if (array[i] > 0) {
+            console.log(array[i]);
+          }
+        }
+      }
+      filterOutNagative((array = [3, 4, 6, 7, -4, 6, -2, -83]));
     </script>
   </body>
 </html>
