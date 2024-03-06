@@ -120,14 +120,26 @@
       // console.log(sum);
 
       //************************************************************************************
-      // Create a function that will convert from Celsius to Fahrenheit
+      //11. Create a function that will convert from Celsius to Fahrenheit
       //************************************************************************************
 
-      function Celsius(c) {
-        const Fahrenheit = c * (9 / 5) + 32;
-        console.log(Fahrenheit);
+      // function Celsius(c) {
+      //   const Fahrenheit = c * (9 / 5) + 32;
+      //   console.log(Fahrenheit);
+      // }
+      // Celsius(3);
+
+      //************************************************************************************
+      //12. Reverse a string
+      //************************************************************************************
+
+      const str = "hello world";
+      // console.log(str.split('').reverse().join(' '));
+      let reverseStr = "";
+      for (i = str.length - 1; i >= 0; i--) {
+        reverseStr = reverseStr + str[i];
       }
-      Celsius(3);
+      console.log(reverseStr);
     </script>
   </body>
 </html>
