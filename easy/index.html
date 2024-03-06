@@ -145,9 +145,15 @@
       //13. Remove duplicate item from an array
       //************************************************************************************
 
-      let array=[112,876,112, 2,2,44,55,55,44]
+      let array = [112, 876, 112, 2, 2, 44, 55, 55, 44];
       console.log(array);
       console.log(...new Set(array));
+
+      let uniqueArray = array.filter(
+        (item, index) => array.indexOf(item) === index
+      );
+
+      console.log(uniqueArray);
     </script>
   </body>
 </html>
