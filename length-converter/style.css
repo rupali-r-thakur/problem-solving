@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main_container {
+  background-color: rgba(16, 16, 16, 0.854);
+  min-height: 100vh;
+}
+.box {
+  width: 40%;
+  height: 40vh;
+  margin-left: 30%;
+  display: grid;
+  grid-template-rows: 10vh 1fr;
+  border: 2px solid rgb(89, 87, 87);
+  border-radius: 10px;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  text-transform: capitalize;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.length_converter {
+  display: grid;
+  grid-template-columns: 40% 1fr 40%;
+}
+.input {
+  text-align: center;
+  padding-top: 30px;
+}
+.input input {
+  width: 90%;
+  height: 25%;
+  outline: none;
+  background-color: rgba(58, 56, 56, 0.652);
+  border: 1px solid white;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+::placeholder {
+  color: white;
+}
+.equal {
+  text-align: center;
+  padding-top: 60px;
+}
+.equal span {
+  color: white;
+  font-size: 30px;
+  font-weight: 900;
+}
+.result {
+  text-align: center;
+  padding-top: 30px;
+}
+.result input {
+  width: 90%;
+  height: 25%;
+  outline: none;
+  background-color: rgba(58, 56, 56, 0.652);
+  border: 1px solid white;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+select {
+  width: 90.5%;
+  padding: 10px;
+  outline: none;
+  background-color: rgba(83, 81, 81, 0.652);
+  border: 1px solid white;
+  color: white;
+  font-size: 20px;
+  border-top: none;
+  text-transform: capitalize;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
