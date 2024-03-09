@@ -239,9 +239,22 @@
 //22. ternary oprator
 //************************************************************************************
 
-const age = prompt("enter your age");
-age > 18
-  ? console.log("you can able to drive")
-  : console.log("you can not able to drive");
-let a = age > 18 ? "you can able to drive" : "you can not able to drive";
-console.log(a);
+// const age = prompt("enter your age");
+// age > 18
+//   ? console.log("you can able to drive")
+//   : console.log("you can not able to drive");
+// let a = age > 18 ? "you can able to drive" : "you can not able to drive";
+// console.log(a);
+
+//************************************************************************************
+// How Much is True?
+//************************************************************************************
+
+const array = [true, false, false, true, false, true];
+let count = 0;
+for (ele of array) {
+  if (ele == true) {
+    count++;
+  }
+}
+console.log(count);
