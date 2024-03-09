@@ -220,17 +220,28 @@
 //21. switch statement
 //************************************************************************************
 
+// const age = prompt("enter your age");
+// switch (age) {
+//   case "12":
+//     console.log("your age is 12");
+//     break;
+//   case "25":
+//     console.log("your age is 25");
+//     break;
+//   case "50":
+//     console.log("your age is 50");
+//     break;
+//   default:
+//     console.log("your age is not spacial");
+// }
+
+//************************************************************************************
+//22. ternary oprator
+//************************************************************************************
+
 const age = prompt("enter your age");
-switch (age) {
-  case "12":
-    console.log("your age is 12");
-    break;
-  case "25":
-    console.log("your age is 25");
-    break;
-  case "50":
-    console.log("your age is 50");
-    break;
-  default:
-    console.log("your age is not spacial");
-}
+age > 18
+  ? console.log("you can able to drive")
+  : console.log("you can not able to drive");
+let a = age > 18 ? "you can able to drive" : "you can not able to drive";
+console.log(a);
