@@ -247,14 +247,30 @@
 // console.log(a);
 
 //************************************************************************************
-// How Much is True?
+//23. How Much is True?
 //************************************************************************************
 
-const array = [true, false, false, true, false, true];
-let count = 0;
-for (ele of array) {
-  if (ele == true) {
-    count++;
-  }
+// const array = [true, false, false, true, false, true];
+// let count = 0;
+// for (ele of array) {
+//   if (ele == true) {
+//     count++;
+//   }
+// }
+
+//************************************************************************************
+//24. Function Factory
+//************************************************************************************
+
+function mobile(modal_no) {
+  return {
+    modal: modal_no,
+    price: function () {
+      return "price is 3000";
+    },
+  };
 }
-console.log(count);
+var sumsung = mobile("galaxy");
+let nokia = mobile("3310");
+console.log(sumsung.modal, sumsung.price());
+console.log(nokia.modal, nokia.price());
