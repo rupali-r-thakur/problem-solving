@@ -190,13 +190,29 @@
       // console.log(number(-3));
 
       //************************************************************************************
-      // Area of a Triangle
+      //18. Area of a Triangle
       //************************************************************************************
 
-      function areaOfTriangle(h, b) {
-        return (h * b) / 2;
+      // function areaOfTriangle(h, b) {
+      //   return (h * b) / 2;
+      // }
+      // console.log(areaOfTriangle(7, 7));
+
+      //************************************************************************************
+      //19. Maximum and minimum of an array
+      //************************************************************************************
+      let array = [3, 2, 1, 666, -4, -666];
+      let min = Infinity;
+      let max = -Infinity;
+      for (ele of array) {
+        if (ele < min) {
+          min = ele;
+        } else if (ele > max) {
+          max = ele;
+        }
       }
-      console.log(areaOfTriangle(7, 7));
+      console.log(min);
+      console.log(max);
     </script>
   </body>
 </html>
