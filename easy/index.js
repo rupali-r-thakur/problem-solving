@@ -206,12 +206,31 @@
 // console.log(max);
 
 //************************************************************************************
-// find whether the age of a person lies between 10 and 20
+//20. find whether the age of a person lies between 10 and 20
+//************************************************************************************
+
+// const age = prompt("enter your age");
+// if (age > 10 && age < 20) {
+//   console.log("your age lies between 10 and 20");
+// } else {
+//   console.log("your age doesnt lies between 10 and 20");
+// }
+
+//************************************************************************************
+//21. switch statement
 //************************************************************************************
 
 const age = prompt("enter your age");
-if (age > 10 && age < 20) {
-  console.log("your age lies between 10 and 20");
-} else {
-  console.log("your age doesnt lies between 10 and 20");
+switch (age) {
+  case "12":
+    console.log("your age is 12");
+    break;
+  case "25":
+    console.log("your age is 25");
+    break;
+  case "50":
+    console.log("your age is 50");
+    break;
+  default:
+    console.log("your age is not spacial");
 }
