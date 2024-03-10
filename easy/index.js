@@ -279,12 +279,12 @@
 //25. sum of positive
 //************************************************************************************
 
-let array = [1, 2, 3, 2, 2, -1, -5];
-let sumOfPositive = 0;
-for (i = 0; i <= array.length - 1; i++) {
-  // console.log(array[i]);
-  if (array[i] > 0) {
-    sumOfPositive = sumOfPositive + array[i];
-  }
-}
-console.log(sumOfPositive);
+// let array = [1, 2, 3, 2, 2, -1, -5];
+// let sumOfPositive = 0;
+// for (i = 0; i <= array.length - 1; i++) {
+//   // console.log(array[i]);
+//   if (array[i] > 0) {
+//     sumOfPositive = sumOfPositive + array[i];
+//   }
+// }
+// console.log(sumOfPositive);
