@@ -262,15 +262,29 @@
 //24. Function Factory
 //************************************************************************************
 
-function mobile(modal_no) {
-  return {
-    modal: modal_no,
-    price: function () {
-      return "price is 3000";
-    },
-  };
+// function mobile(modal_no) {
+//   return {
+//     modal: modal_no,
+//     price: function () {
+//       return "price is 3000";
+//     },
+//   };
+// }
+// var sumsung = mobile("galaxy");
+// let nokia = mobile("3310");
+// console.log(sumsung.modal, sumsung.price());
+// console.log(nokia.modal, nokia.price());
+
+//************************************************************************************
+//25. sum of positive
+//************************************************************************************
+
+let array = [1, 2, 3, 2, 2, -1, -5];
+let sumOfPositive = 0;
+for (i = 0; i <= array.length - 1; i++) {
+  // console.log(array[i]);
+  if (array[i] > 0) {
+    sumOfPositive = sumOfPositive + array[i];
+  }
 }
-var sumsung = mobile("galaxy");
-let nokia = mobile("3310");
-console.log(sumsung.modal, sumsung.price());
-console.log(nokia.modal, nokia.price());
+console.log(sumOfPositive);
